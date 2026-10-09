@@ -69,6 +69,10 @@ These are technologies the repositories actually use.
 - ASP.NET Core and SignalR
 - Docker
 
+## Current Focus
+
+SafeStep is the active product: live location, geofences, and fall detection, with a Node.js API and a Flutter client. Beside it I keep the ledgers exact (PersianLedger and the exchange books) and the document assistants local unless a key is configured on purpose.
+
 ## Projects
 
 ### Products and services
