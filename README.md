@@ -8,7 +8,7 @@ Computer Science student at K. N. Toosi University of Technology. The repositori
 
 I work on software that has to stay correct under real constraints: money that cannot be double-spent, answers that must cite a source, and safety alerts a family can trust.
 
-Most of the work is backend development in Python and Node.js, with machine learning and retrieval where the data is local and the result has to be inspectable. Beside that I ship desktop and web interfaces when the product needs them. I would rather finish a small system with a clear invariant than a demo that only looks finished.
+Most of my work is backend development in Python and Node.js, with machine learning and retrieval when data stays local and results need to be inspectable. I also build desktop and web interfaces when a product needs them. I focus on completing systems with clear invariants and observable behavior.
 
 ## Featured Projects
 
