@@ -1,6 +1,6 @@
 # Morteza Pazhoum
 
-Software developer building backend systems, AI applications, machine learning solutions, and modern web platforms.
+Software developer building backend systems, machine-learning and computer-vision applications, and modern web platforms.
 
 Computer Science student at K. N. Toosi University of Technology. The repositories below are systems I can walk through end to end.
 
@@ -8,7 +8,7 @@ Computer Science student at K. N. Toosi University of Technology. The repositori
 
 I work on software that has to stay correct under real constraints: money that cannot be double-spent, answers that must cite a source, and safety alerts a family can trust.
 
-Most of my work is backend development in Python and Node.js, with machine learning and retrieval when data stays local and results need to be inspectable. I also build desktop and web interfaces when a product needs them. I focus on completing systems with clear invariants and observable behavior.
+Most of my work is backend development in Python and Node.js, with machine learning and retrieval when data stays local and results need to be inspectable. I also build computer-vision workflows that turn video into tracked objects and spatial views. I focus on completing systems with clear invariants and observable behavior.
 
 ## Featured Projects
 
@@ -52,6 +52,14 @@ A stone-cut optimizer. It varies cut parameters, traces light through each candi
 
 Interesting because the search, the optics, and the Max exchange file share one parameter set instead of three hand-edited pipelines.
 
+### [Implement-Football-Video](https://github.com/MortezaPZ/Implement-Football-Video)
+
+A computer-vision pipeline that turns football footage into tracked match events and a top-down tactical view.
+
+**Stack:** Python, Ultralytics YOLO, OpenCV, ByteTrack, scikit-learn
+
+The pipeline detects players, referees, and the ball, assigns persistent track IDs, groups players by jersey color, and maps 32 pitch landmarks into field coordinates with a homography. Its final video combines the annotated match with a 2D tactical view. Model weights and input footage are local files; generated videos and caches are not committed.
+
 ### [customer-churn-analytics](https://github.com/MortezaPZ/customer-churn-analytics)
 
 Upload a customer CSV, train a churn model, and see who is likely to leave and which fields drove that score.
@@ -72,6 +80,7 @@ Technologies the repositories actually use:
 - Flutter
 - PostgreSQL and SQLite
 - Machine learning with scikit-learn and PyTorch
+- Computer vision with OpenCV, YOLO, and object tracking
 - LLM and RAG over local documents
 - ASP.NET Core and SignalR
 - Docker
